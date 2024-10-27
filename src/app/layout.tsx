@@ -1,5 +1,5 @@
-import Container from '@/components/ui/Container/Container';
-import Wrapper from '@/components/ui/Wrapper/Wrapper';
+import Container from '@/components/ui/Container';
+import Wrapper from '@/components/ui/Wrapper';
 import type { Metadata } from 'next';
 import '../styles/globals.css';
 import '../styles/nullstyle.css';

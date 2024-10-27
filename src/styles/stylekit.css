@@ -1,39 +1,22 @@
 :root {
-  /* --primary: ; */
-  --white: rgb(255, 255, 255);
+  --color-primary: #3B181E;
+  --color-white: rgb(255, 255, 255);
 
-  /* --line-height: %; */
-  /* --headline-1: px; */
-  /* --headline-2: px; */
-  /* --headline-3: px; */
+  --fz-headline-1: 120px;
+  --fz-headline-2: 30px;
+  --fz-headline-3: 50px;
   /* --headline-4: px; */
   /* --headline-5: px; */
   /* --headline-6: px; */
 
-  /* --text-large: px; */
-  /* --text-medium: px; */
-  /* --text-small: px; */
+  --fz-text-large: 20px;
+  --fz-text-regular: 18px;
+  --fz-text-small: 16px;
 
-  /* --container: vw; */
+  --container: 90.05vw;
   /* --container-mobile: vw; */
   
   --transition: all ease-in-out 0.3s;
 }
-
-/*! @font-face for src/fonts/.. */
-
-/* @font-face {
-  font-family: '';
-  src:
-    local(''),
-    url('../fonts/.woff')
-      format('woff'),
-    url('../fonts/.woff2')
-      format('woff2'),
-    url('../fonts/.ttf')
-      format('truetype');
-  font-weight: 400;
-  font-display: swap;
-} */
 
 
