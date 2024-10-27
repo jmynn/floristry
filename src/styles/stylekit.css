@@ -1,0 +1,39 @@
+:root {
+  /* --primary: ; */
+  --white: rgb(255, 255, 255);
+
+  /* --line-height: %; */
+  /* --headline-1: px; */
+  /* --headline-2: px; */
+  /* --headline-3: px; */
+  /* --headline-4: px; */
+  /* --headline-5: px; */
+  /* --headline-6: px; */
+
+  /* --text-large: px; */
+  /* --text-medium: px; */
+  /* --text-small: px; */
+
+  /* --container: vw; */
+  /* --container-mobile: vw; */
+  
+  --transition: all ease-in-out 0.3s;
+}
+
+/*! @font-face for src/fonts/.. */
+
+/* @font-face {
+  font-family: '';
+  src:
+    local(''),
+    url('../fonts/.woff')
+      format('woff'),
+    url('../fonts/.woff2')
+      format('woff2'),
+    url('../fonts/.ttf')
+      format('truetype');
+  font-weight: 400;
+  font-display: swap;
+} */
+
+
