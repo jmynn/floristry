@@ -1,0 +1,27 @@
+.btn {
+    transition: var(--transition);
+    opacity: 1;
+    position: relative;
+    width: 36px;
+    height: 58px;
+    display: block;
+    background-color: var(--color-primary);
+    border: .7px solid var(--color-white);
+    border-radius: 22px;
+}
+.btn::after {
+    content: '';
+    position: absolute;
+    width: 0.7px;
+    background-color: var(--color-white);
+    top: 10px;
+    left: 50%;
+    height: 10px;
+}
+
+@media screen and (hover: hover) and (pointer: fine) {
+    .btn:hover {
+        transition: var(--transition);
+        opacity: .7;
+    }
+}

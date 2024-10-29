@@ -18,9 +18,11 @@ export default function RootLayout({
     <html lang="ru">
       <body>
         <Wrapper>
-          {/* header */}
-          <Container>{children}</Container>
-          {/* footer */}
+          <Container>
+            {/* header */}
+            <div id="content">{children}</div>
+            {/* footer */}
+          </Container>
         </Wrapper>
       </body>
     </html>

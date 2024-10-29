@@ -8,8 +8,9 @@ body {
   justify-content: center;
   position: relative;
   font-family: 'Forum', sans-serif;
-  /* font-size: var(--text-medium); */
-  /* background-color: var(--white); */
+  font-size: var(--fz-text-regular);
+  color: var(--color-white);
+  background-color: var(--color-primary);
 }
 #content {
   flex: 1 1 auto;

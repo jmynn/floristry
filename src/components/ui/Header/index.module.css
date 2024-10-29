@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    padding: 85px 0 0 0;
+}
+.phone > a {
+    display: block;
+    color: var(--color-white);
+    font-size: var(--fz-text-large);
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+.logo > a, .phone > a {
+    transition: var(--transition);
+    opacity: 1;
+}
+
+@media screen and (hover:hover) and (pointer:fine) {
+    .phone:hover > a, .logo:hover > a {
+        opacity: 0.7;
+        transition: var(--transition);
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .phone > a {
+      font-size: var(--fz-text-small);
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  gap: calc((100vw - (100vw - var(--container))) / 100 * 3.5);
+}
+
+.link {
+  display: block;
+  color: var(--color-white);
+  font-size: var(--fz-text-large);
+  line-height: 110%;
+  text-transform: uppercase;
+  transition: var(--transition);
+  opacity: 1;
+}
+
+@media screen and (hover: hover) and (pointer: fine) {
+  .link:hover {
+    opacity: 0.7;
+    transition: var(--transition);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .link {
+    font-size: var(--fz-text-small);
+  }
+}
+
+
