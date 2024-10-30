@@ -1,0 +1,59 @@
+.service {
+  border: 1px solid color-mix(in srgb, var(--color-white), transparent 80%);
+  padding: 10px;
+  height: fit-content;
+  width: 100%;
+}
+
+.image {
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.overlay {
+  display: flex;
+  align-items: last baseline;
+  gap: 12px;
+  color: var(--color-white);
+  font-size: var(--fz-text-large);
+  line-height: 120%;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  z-index: 2;
+}
+.overlay::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 70px;
+  background-color: var(--color-white);
+}
+
+.title {
+  color: var(--color-white);
+  font-size: var(--fz-text-small);
+  line-height: 170%;
+  text-transform: uppercase;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+  margin: 0 0 30px 0;
+}
+
+.link {
+    color: var(--color-white);
+    font-size: 12px;
+    line-height: 110%;
+    text-transform: uppercase;
+    opacity: 0.8;
+    transition: var(--transition);
+    letter-spacing: 0.1em;
+}
+
+@media screen and (hover: hover) and (pointer: fine) {
+    .link:hover {
+        transition: var(--transition);
+        opacity: 1;
+    }
+}
