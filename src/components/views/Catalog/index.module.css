@@ -1,10 +1,10 @@
 .catalog {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 95px;
-    width: 1523px;
-    margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+  width: 88.09%;
+  margin: 0 auto 256px;
 }
 .catalog::after {
   content: 'каталог услуг';
