@@ -1,20 +1,18 @@
-import Link from 'next/link';
 import styles from './index.module.css';
 import { ReactNode } from 'react';
 import Image from 'next/image';
+import InnerTitle from '@/components/ui/InnerTitle';
+import InnerText from '@/components/ui/InnerText';
+import InnerMore from '@/components/ui/InnerMore';
 
 const Promo = (): ReactNode => {
   return (
     <div className={styles.promo}>
       <div className={styles.info}>
-        <h3 className={styles.title}>Акционные предложения</h3>
-        <div className={styles.text}>
-          При заказе свадебного предоставляется скидка на букет невесты и
-          бутоньерку в размере 30%
-        </div>
-        <Link href={'/'} className={styles.view}>
-          заказать оформление
-        </Link>
+        <InnerTitle>Акционные предложения</InnerTitle>
+        <InnerText>При заказе свадебного предоставляется скидка на букет невесты и
+        бутоньерку в размере 30%</InnerText>
+        <InnerMore href='/'>заказать оформление</InnerMore>
       </div>
       <div className={styles.image}>
         <Image

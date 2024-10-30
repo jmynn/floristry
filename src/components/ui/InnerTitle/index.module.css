@@ -1,0 +1,16 @@
+.title {
+    color: var(--color-white);
+    font-size: var(--fz-headline-3);
+    line-height: 120%;
+    text-transform: uppercase;
+    /* white-space: pre-line; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .title::after {
+    content: '';
+    height: 1px;
+    width: 85px;
+    background-color: var(--color-white);
+  }

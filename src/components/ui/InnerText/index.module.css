@@ -1,0 +1,5 @@
+.text {
+  color: var(--color-white);
+  font-size: var(--fz-text-regular);
+  line-height: 170%;
+}
