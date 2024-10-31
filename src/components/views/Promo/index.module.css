@@ -1,6 +1,5 @@
 .promo {
   width: 68.02%;
-  margin: 0 auto 270px;
 }
 .promo > :has(img) {
   flex: 0 0 59.27%;
