@@ -31,7 +31,7 @@ const InnerBlock: FunctionComponent<Props> = ({
       className={`${styles.block} ${className} ${isReverse ? styles._reverse : ''}`}
     >
       <div className={styles.image}>
-        <Image alt="img in block" {...{ ...image }} />
+        <Image alt="img in block" {...{ ...image }} style={{width: '100%'}} />
       </div>
       <div className={styles.info}>
         <InnerTitle>{innerInfo.title}</InnerTitle>
