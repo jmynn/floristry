@@ -3,6 +3,7 @@ import Wrapper from '@/components/ui/Wrapper';
 import type { Metadata } from 'next';
 import '../styles/globals.css';
 import '../styles/nullstyle.css';
+import Footer from '@/components/ui/Footer';
 
 export const metadata: Metadata = {
   title: 'Floristry',
@@ -21,7 +22,7 @@ export default function RootLayout({
           <Container>
             {/* header */}
             <div id="content">{children}</div>
-            {/* footer */}
+            <Footer />
           </Container>
         </Wrapper>
       </body>
