@@ -1,31 +1,19 @@
-import styles from './index.module.css';
+import InnerBlock from '@/components/ui/InnerBlock';
 import { ReactNode } from 'react';
-import Image from 'next/image';
-import InnerTitle from '@/components/ui/InnerTitle';
-import InnerText from '@/components/ui/InnerText';
-import InnerMore from '@/components/ui/InnerMore';
+import styles from './index.module.css';
 
 const Promo = (): ReactNode => {
   return (
-    <div className={styles.promo}>
-      <div className={styles.info}>
-        <InnerTitle>Акционные предложения</InnerTitle>
-        <InnerText>При заказе свадебного предоставляется скидка на букет невесты и
-        бутоньерку в размере 30%</InnerText>
-        <InnerMore href='/'>заказать оформление</InnerMore>
-      </div>
-      <div className={styles.image}>
-        <Image
-          src={'/promo/акц.jfif'}
-          alt="promo pic"
-          width={697}
-          height={410}
-          style={{
-            width: '100%'           
-          }}
-        />
-      </div>
-    </div>
+    <InnerBlock
+      image={{ src: '/promo/акц.jfif', height: 410, width: 697 }}
+      innerInfo={{
+        title: 'Акционные предложения',
+        text: 'При заказе свадебного предоставляется скидка на букет невесты и бутоньерку в размере 30%',
+        moreText: 'заказать оформление'
+      }}
+      className={styles.promo}
+      isReverse
+    />
   );
 };
 

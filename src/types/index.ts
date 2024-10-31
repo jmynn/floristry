@@ -8,3 +8,5 @@ export type TypeService = {
     title: string;
     image: `/${string}`;
 }
+
+export type TypeComposition = `/${'compositions' | 'catalog'}/${string}`

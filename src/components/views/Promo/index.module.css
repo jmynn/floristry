@@ -1,34 +1,13 @@
 .promo {
-  display: flex;
-  align-items: center;
-  gap: 95px;
   width: 68.02%;
   margin: 0 auto 270px;
 }
-
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: baseline;
-  flex: 1 1 auto;
-}
-
-.image {
+.promo > :has(img) {
   flex: 0 0 59.27%;
-  position: relative;
 }
-.image > img {
-  object-fit: cover;
-}
-.image::after {
-  content: '';
-  width: 100%;
+.promo > :has(img)::after {
   height: 100%;
-  border: 1px solid var(--color-white);
-  opacity: 0.2;
-  z-index: 2;
-  position: absolute;
+  width: 100%;
   top: 20px;
   left: 20px;
 }

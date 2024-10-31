@@ -1,0 +1,35 @@
+.block._reverse > .image {
+  order: 2;
+}
+.block._reverse > .info {
+  order: 1;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  /* width & margin in out css */
+}
+.image {
+  position: relative;
+  /* flex % in out css */
+}
+.image > img {
+  object-fit: cover;
+}
+.image::after {
+  /* .image::after in out css */
+  content: '';
+  border: 1px solid var(--color-white);
+  opacity: 0.2;
+  z-index: 2;
+  position: absolute;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: baseline;
+  flex: 1 1 auto;
+}
