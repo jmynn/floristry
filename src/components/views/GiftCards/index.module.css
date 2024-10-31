@@ -1,0 +1,17 @@
+.gifts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 145px;
+  margin: 0 0 270px 0;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  justify-content: center;
+}
+
+.cards > *:nth-child(2) {
+  scale: 1.25;
+}

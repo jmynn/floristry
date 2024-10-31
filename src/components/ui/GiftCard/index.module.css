@@ -1,0 +1,77 @@
+.card {
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 348px;
+  overflow: hidden;
+}
+
+.top {
+  position: relative;
+  padding: 10px;
+  z-index: -1;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  scale: 1.45;
+}
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.row._reverse {
+  align-items: last baseline;
+}
+.row._reverse > svg {
+  order: 2;
+  rotate: 180deg;
+}
+.row._reverse > span {
+  order: 1;
+}
+.row > div {
+  color: var(--color-white);
+  font-size: var(--fz-text-large);
+  line-height: 110%;
+  letter-spacing: 0.1em;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #281014;
+  padding: 70px 20px;
+  gap: 25px;
+}
+.text {
+  color: var(--color-white);
+  font-size: var(--fz-text-regular);
+  line-height: 150%;
+  text-align: center;
+  text-wrap: balance;
+}
+.link {
+  color: var(--color-white);
+  font-size: 12px;
+  line-height: 110%;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 20px 30px;
+  border: 1px solid var(--color-white);
+  transition: var(--transition);
+  opacity: 1;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (hover: hover) and (pointer: fine) {
+  .link:hover {
+    transition: var(--transition);
+    opacity: 0.7;
+  }
+}
