@@ -1,4 +1,4 @@
-export type TypeNavbarLink = {
+export type TypeLink = {
   href: `/${string}`;
   label: string;
 };
