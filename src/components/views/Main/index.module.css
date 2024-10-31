@@ -44,10 +44,8 @@
   opacity: 1;
   letter-spacing: 0.3em;
 }
-.socials {
-  display: flex;
+._fdc {
   flex-direction: column;
-  gap: 25px;
 }
 .body > div:nth-child(2) {
   margin: 70px 0 150px;

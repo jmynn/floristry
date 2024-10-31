@@ -1,14 +1,11 @@
 import Header from '@/components/ui/Header';
 import styles from './index.module.css';
 import { ReactNode } from 'react';
-import IconInst from '@/components/ui/icons/IconInst';
-import IconFb from '@/components/ui/icons/IconFb';
-import IconWhatsapp from '@/components/ui/icons/IconWhatsapp';
-import IconVk from '@/components/ui/icons/IconVk';
 import Link from 'next/link';
 import ButtonToBottom from '@/components/ui/ButtonToBottom';
 import Image from 'next/image';
 import IconArrow from '@/components/ui/icons/IconArrow';
+import Socials from '@/components/ui/Socials';
 
 const Main = (): ReactNode => {
   return (
@@ -16,12 +13,7 @@ const Main = (): ReactNode => {
       <Header />
       <Image src={'/bg-main.jfif'} alt="bg" fill priority />
       <div className={styles.mainBody}>
-        <div className={styles.socials}>
-          <IconInst />
-          <IconFb />
-          <IconWhatsapp />
-          <IconVk />
-        </div>
+        <Socials className={styles._fdc} />
         <div className={styles.body}>
           <div>
             <h1 className={styles.title}>{`флористика
