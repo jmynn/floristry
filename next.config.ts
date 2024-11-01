@@ -4,7 +4,8 @@ const nextConfig: NextConfig = {
   output: 'export',
   basePath: '/floristry',
   images: {
-    formats: ['image/webp']
+    formats: ['image/webp'],
+    unoptimized: true,
   }
 };
 
