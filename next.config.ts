@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     formats: ['image/webp'],
     unoptimized: true,
+    path: '/floristry'
   }
 };
 
