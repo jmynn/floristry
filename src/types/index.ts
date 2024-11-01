@@ -9,7 +9,7 @@ export type TypeService = {
   image: `/${string}`;
 };
 
-export type TypeComposition = `/${'compositions' | 'catalog'}/${string}`;
+export type TypeComposition = `/floristry/${'compositions' | 'catalog'}/${string}`;
 export type TypeGift = Record<'id' | 'value', number> & {
   background?: `#${string}`;
 };

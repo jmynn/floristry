@@ -1,8 +1,8 @@
 import { TypeComposition } from '@/types';
 
 export default [
-  '/compositions/цв2.jfif',
-  '/compositions/цв3.jfif',
-  '/compositions/цв4.jfif',
-  '/catalog/цв-3.jfif'
+  '/floristry/compositions/цв2.jfif',
+  '/floristry/compositions/цв3.jfif',
+  '/floristry/compositions/цв4.jfif',
+  '/floristry/catalog/цв-3.jfif'
 ] satisfies TypeComposition[];

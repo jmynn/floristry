@@ -5,7 +5,7 @@ import styles from './index.module.css';
 const Promo = (): ReactNode => {
   return (
     <InnerBlock
-      image={{ src: '/promo/акц.jfif', height: 410, width: 697 }}
+      image={{ src: '/floristry/promo/акц.jfif', height: 410, width: 697 }}
       innerInfo={{
         title: 'Акционные предложения',
         text: 'При заказе свадебного предоставляется скидка на букет невесты и бутоньерку в размере 30%',

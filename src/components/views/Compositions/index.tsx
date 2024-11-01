@@ -7,7 +7,7 @@ import styles from './index.module.css';
 const Compositions = (): ReactNode => {
   return (
     <InnerBlock
-      image={{ src: '/compositions/main.jfif', height: 855, width: 1000 }}
+      image={{ src: '/floristry/compositions/main.jfif', height: 855, width: 1000 }}
       innerInfo={{
         title: 'композиции и шляпные коробки',
         text: `Композиции могут собираться в любой таре: корзинке, шляпной коробке, вазочке или декоративных ящиках. Их нет необходимости ставить в вазу, как букеты, потому что цветы питаются при помощи специальной флористической губки под названием оазис. 

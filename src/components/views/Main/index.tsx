@@ -11,7 +11,7 @@ const Main = (): ReactNode => {
   return (
     <main className={styles.main}>
       <Header />
-      <Image src={'/bg-main.jfif'} alt="bg" fill priority placeholder='blur' />
+      <Image src={'/floristry/bg-main.jfif'} alt="bg" fill priority placeholder='blur' />
       <div className={styles.mainBody}>
         <Socials className={styles._fdc} />
         <div className={styles.body}>
